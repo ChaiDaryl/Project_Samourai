@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+;
+
+:root {
+
+
+    --primary-color: blue;
+    --secondary-color: red;
+    --tertiary-color: green;
+    /* mettre en place  avec var(--primary-color); */
+
+    --titleSize: font-size: 32px;
+    --textSize: font-size: 16px;
+
+    --titleFont: font-family:"Inter Tight";
+    ;
+    --textFont: font-family:"League Spartan", sans-serif;
+    ;
+}
+
+;
