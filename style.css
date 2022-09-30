@@ -19,17 +19,18 @@
         margin:auto;
         box-sizing: border-box;
     }
-
-
+    header {
+        
+    }
 
     .titre {
         display: flex;
         justify-content: flex-end;
         background-color: lightsteelblue;
-        padding: 30px;
+        
     }
     
-    .titre img {
+    .titre img1 {
         align-items: flex-end;
         margin-left: 80px;
         margin-right: 50px;
@@ -47,7 +48,9 @@
     
     
     nav {
-        position: fixed;
+        position:fixed;
+        top:15%;
+  
         width: 100%;
         height: 50px;
     
@@ -55,16 +58,18 @@
     
     
     ul {
-        height: 50px;
+        height: 70px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: gray;}
+        background-color: gray;
+    margin:0%}
 
 
     ul li {
             list-style: none;
+            margin:0%;
         }
         
         ul li a {
@@ -76,6 +81,7 @@
             #e90b20 4px 4px 0,
             #850103 5px 5px 0,
             #333 5px 5px 10px;color:#FFD100;
+            font-size: 14px;
         }
         
     
@@ -86,7 +92,6 @@
     flex-wrap: wrap;
     justify-content : space-around;
     align-items: flex-start;
-    background-color: yellow;
     margin: auto;
     padding:auto;
     }
@@ -128,7 +133,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: flex;
         justify-content : space-around;
         align-items: flex-start;
-        background-color: yellow;
         margin:auto;
         padding:auto;
       
@@ -211,7 +215,7 @@ li:hover, li:focus, li:active {
 }
 
 
-}
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
