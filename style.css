@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+
+    /* margin: 0;
+    padding: 0;  */
     text-decoration: none;
+    font-family: "League Spartan", sans-serif;
 }
 
 ;
@@ -17,13 +19,42 @@
     --tertiary-color: green;
     /* mettre en place  avec var(--primary-color); */
 
-    --titleSize: font-size: 32px;
+    --titleSize: font-size: 36px;
     --textSize: font-size: 16px;
 
     --titleFont: font-family:"gInter Tight";
     ;
     --textFont: font-family:"League Spartan", sans-serif;
     ;
+}
+
+;
+
+
+.titleBlock {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+;
+
+.titleTeam {
+    text-align: center;
+}
+
+
+
+.teammembers {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+    text-align: center;
+
+
+
 }
 
 ;
