@@ -1,10 +1,20 @@
+
 :root {
     --primary-color: blue ;
     --secondary-color: black ;
     --tertiary-color: white;
     --primary-font: ariana sans serif ;
     --secondary-font: verdana ;
+
+.headclassement {
+    max-width: 500px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 2rem;
+    box-shadow: 0.75rem 0.5rem 0.5rem black;
+
 }
+
 
 
 
@@ -107,3 +117,157 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
  
+
+
+
+ol {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    text-align: center;
+
+}
+
+li {
+    max-width: 500px;
+    border: solid 1px black;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0.75rem 0.5rem 0.5rem black;
+    }
+
+
+li:hover, li:focus, li:active {
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+}
+.titre {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightsteelblue;
+    padding: 30px;
+}
+
+.titre img {
+    align-items: flex-end;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+
+}
+
+
+ul {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
+
+* {
+
+    /* margin: 0;
+    padding: 0;  */
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+}
+
+;
+
+:root {
+
+
+    --primary-color: blue;
+    --secondary-color: red;
+    --tertiary-color: green;
+    /* mettre en place  avec var(--primary-color); */
+
+    --titleSize: font-size: 36px;
+    --textSize: font-size: 16px;
+
+    --titleFont: font-family:"gInter Tight";
+    ;
+    --textFont: font-family:"League Spartan", sans-serif;
+    ;
+}
+
+;
+
+
+.titleBlock {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+;
+
+.titleTeam {
+    text-align: center;
+}
+
+
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+}
+
+section {
+    height: 500px;
+    border: 1px solid black;
+}
+
+.teammembers {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+    text-align: center;
+
+
+
+}
+
+;
