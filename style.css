@@ -35,6 +35,50 @@ header {}
 
 }
 
+    * {
+
+        /* margin: 0;
+        padding: 0;  */
+        text-decoration: none;
+        font-family: "League Spartan", sans-serif;
+    }
+
+   
+
+   
+
+    body{
+        background-color: #ad8131;
+        margin:auto;
+        box-sizing: border-box;
+    }
+    header {
+        
+    } 
+     
+
+    .icone {
+        width: 50px;
+    }
+
+    .titre {
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgb(78, 81, 90);
+        margin-top: 6rem;
+        
+    }
+    
+    .titre img1 {
+        align-items: flex-end;
+        margin-left: 70px;
+        margin-right: 50px;
+    }
+    
+    .h1samy {
+        text-shadow:#FFFEC8 0 -1px 0,
+
+
 .titre img1 {
     align-items: flex-end;
     margin-left: 70px;
@@ -199,6 +243,7 @@ h3 {
     border: solid 1px black;
     border-radius: 2rem;
     box-shadow: 0.75rem 0.5rem 0.5rem black;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -239,6 +284,31 @@ li:active {
     transition: 0.5s;
 }
 
+/*button top */
+   
+.scrollTop {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: url(assets/but_to_top.png);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scrollTop.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
 
 
 
@@ -247,26 +317,11 @@ li:active {
 
 
 
-;
-
-:root {
 
 
-    --primary-color: blue;
-    --secondary-color: red;
-    --tertiary-color: green;
-    /* mettre en place  avec var(--primary-color); */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
 
-    --titleSize: font-size: 36px;
-    --textSize: font-size: 16px;
-
-    --titleFont: font-family:"gInter Tight";
-    ;
-    --textFont: font-family:"League Spartan", sans-serif;
-    ;
-}
-
-;
 
 
 .titleBlock {
@@ -275,7 +330,7 @@ li:active {
 
 }
 
-;
+
 
 .titleTeam {
     text-align: center;
@@ -299,4 +354,99 @@ li:active {
 
 }
 
-;
+
+/* Carousel */
+
+.items {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    margin-top: 20rem;
+   bottom: 10rem;
+  }
+  
+  .items .item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+    
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 1;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+
+
