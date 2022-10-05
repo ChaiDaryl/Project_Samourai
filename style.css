@@ -14,6 +14,10 @@
         font-family: "League Spartan", sans-serif;
     }
 
+   
+
+   
+
     body{
         background-color: #ad8131;
         margin:auto;
@@ -21,6 +25,11 @@
     }
     header {
         
+    } 
+     
+
+    .icone {
+        width: 50px;
     }
 
     .titre {
@@ -227,6 +236,32 @@ li:hover, li:focus, li:active {
     transition: 0.5s;
 }
 
+/*button top */
+   
+.scrollTop {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: url(assets/but_to_top.png);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scrollTop.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
 
 
 
@@ -236,35 +271,13 @@ li:hover, li:focus, li:active {
 
 
 
-;
-
-:root {
-
-
-    --primary-color: blue;
-    --secondary-color: red;
-    --tertiary-color: green;
-    /* mettre en place  avec var(--primary-color); */
-
-    --titleSize: font-size: 36px;
-    --textSize: font-size: 16px;
-
-    --titleFont: font-family:"gInter Tight";
-    ;
-    --textFont: font-family:"League Spartan", sans-serif;
-    ;
-}
-
-;
-
-
 .titleBlock {
     margin-top: 0px;
     margin-bottom: 30px;
     
 }
 
-;
+
 
 .titleTeam {
     text-align: center;
@@ -288,4 +301,4 @@ li:hover, li:focus, li:active {
 
 }
 
-;
+
