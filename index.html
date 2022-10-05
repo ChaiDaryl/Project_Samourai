@@ -13,24 +13,38 @@
 <body>
     <!--navbar +logo-->
 
-    <header>
-            <div class="titre">
-            <h1 class="h1samy">FFK Fédération Francaise de Kebab</h1>
-            <img src="donerperche.png" id =logo width=100px height=100px/>
-            </div>
-        <nav>  
-            <ul>
-                <li><a href="L'histoire du kebab">L'histoire du kebab</a></li>
-                <li><a href="Les Types de Kebab">Les Types de Kebab</a></li>
-                <li><a href="Le Top Kebab">Le Top Kebab</a></li>
-                <li><a href="L'équipe FFK">L'équipe FFK</a></li>
-                <li><a href="Les réseaux">Les réseaux</a></li> 
-
-                
-            </ul>
-        </nav>
-
+    <header class="header">
+        <div></div>
+          <div class="titre">
+            <span style="--i:1">F</span>
+            <span style="--i:2">F</span>
+            <span style="--i:3">K</span>
+            <span style="--i:8">.</span>
+           </div>
         
+           <img class="imageT" src="donerperche.png"/>
+        
+           <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+        
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#">L'Histoire Du Kebab</a></li>
+                <li><a href="#">Les Types de Kebab</a></li>
+                <li><a href="#">Le Top Kebab</a></li>
+                <li><a href="#">Equipe FFK</a></li>
+                <li><a href="#">Les Réseaux</a></li>
+              </ul>
+            </nav> 
+        
+          </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
+          
         </header>
 
     <!--Ecran d'acceuil-->
@@ -191,7 +205,7 @@
     <footer>
         <p>@ FFK-2022</p>
     </footer>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
