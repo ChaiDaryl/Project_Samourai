@@ -1,197 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
+
+* {
+
+    /* margin: 0;
+    padding: 0;  */
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+
 
 :root {
-    --primary-color: blue ;
-    --secondary-color: black ;
+    --primary-color: blue;
+    --secondary-color: black;
     --tertiary-color: white;
-    --primary-font: ariana sans serif ;
-    --secondary-font: verdana ;
+    --primary-font: ariana sans serif;
+    --secondary-font: verdana;
 }
-    * {
 
-        /* margin: 0;
-        padding: 0;  */
-        text-decoration: none;
-        font-family: "League Spartan", sans-serif;
-    }
+body {
+    background-color: #ad8131;
+    margin: auto;
+    box-sizing: border-box;
+}
 
-    body{
-        background-color: #ad8131;
-        margin:auto;
-        box-sizing: border-box;
-    }
-    header {
-        
-    }
+header {}
 
-    .titre {
-        display: flex;
-        justify-content: flex-end;
-        background-color: rgb(78, 81, 90);
-        margin-top: 6rem;
-        
-    }
-    
-    .titre img1 {
-        align-items: flex-end;
-        margin-left: 70px;
-        margin-right: 50px;
-    }
-    
-    .h1samy {
-        text-shadow:#FFFEC8 0 -1px 0,
+.titre {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(78, 81, 90);
+    margin-top: 6rem;
+
+}
+
+.titre img1 {
+    align-items: flex-end;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.h1samy {
+    text-shadow: #FFFEC8 0 -1px 0,
         #ff3a00 1px 1px 0,
         #c01c01 2px 2px 0,
         #bf1b01 3px 3px 0,
         #e90b20 4px 4px 0,
         #850103 5px 5px 0,
-        #333 5px 5px 10px;color:#FFD100;
-        margin-left: auto;
-        margin-right: auto;
+        #333 5px 5px 10px;
+    color: #FFD100;
+    margin-left: auto;
+    margin-right: auto;
 
-    }
-    
-    
-    nav {
-        position:fixed;
-        top:0%;
-        width: 100%;
-        height: 50px;
-    
-    }
-    
-    
-    ul {
-        height: 95px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background-color: gray;
-    margin:0em;
-padding:0,5em}
+}
 
 
-    ul li {
-            list-style: none;
-            margin:0%;
-            
-        }
-        
-        ul li a {
-            text-decoration: none;
-            text-shadow:#FFFEC8 0 -1px 0,
-            #ff3a00 1px 1px 0,
-            #c01c01 2px 2px 0,
-            #bf1b01 3px 3px 0,
-            #e90b20 4px 4px 0,
-            #850103 5px 5px 0,
-            #333 5px 5px 10px;color:#FFD100;
-            font-size: 12px;
-        }
-        
-    
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 50px;
 
-  #accueil {
+}
+
+
+ul {
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    margin: 0em;
+    padding: 0, 5em
+}
+
+
+ul li {
+    list-style: none;
+    margin: 0%;
+
+}
+
+ul li a {
+    text-decoration: none;
+    text-shadow: #FFFEC8 0 -1px 0,
+        #ff3a00 1px 1px 0,
+        #c01c01 2px 2px 0,
+        #bf1b01 3px 3px 0,
+        #e90b20 4px 4px 0,
+        #850103 5px 5px 0,
+        #333 5px 5px 10px;
+    color: #FFD100;
+    font-size: 12px;
+}
+
+
+
+#accueil {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content : space-around;
+    justify-content: space-around;
     align-items: flex-start;
     margin: auto;
-    padding:15%
-    }
+    padding: 15%
+}
 
-    .box1 {
-        display: block;
-        border: 4px solid blanchedalmond;
-        margin: auto 15vw;
-        border-radius: 5vh;
-    }
+.box1 {
+    display: block;
+    border: 4px solid blanchedalmond;
+    margin: auto 15vw;
+    border-radius: 5vh;
+}
 
-    h1{
-        text-align: center;
-        justify-content: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border: 2px  solid blanchedalmond;
-        
-    }
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid blanchedalmond;
 
-    .img1 {
-        width:55vw;
-        height:55vw;
-        display: block;
-        margin:auto;
+}
 
-    }
+.img1 {
+    width: 55vw;
+    height: 55vw;
+    display: block;
+    margin: auto;
 
-    h2{
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border: 2px solid blanchedalmond;
-    }
-    p {
-       text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+}
 
-    #histoire {
-        display: flex;
-        justify-content : space-around;
-        align-items: flex-start;
-        margin:auto;
-        padding:auto;
-      
-       
-        }
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid blanchedalmond;
+}
 
-        h3{
-            text-align: center;
-            justify-content: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 30px;
-            border:2px solid blanchedalmond;
-        }
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#histoire {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+    padding: auto;
 
 
+}
 
-    .container {
-        display:block;
-        flex-direction: column;
-        text-align: center;
-        border: 4px solid blanchedalmond ;
-        border-radius: 5vh;
-        margin: auto 15vw;
-    }
-    .img2 {
-        width:55vw;
-        height: 55vw;
-        margin :auto;
- }
-
-    #story{
-        display: flex;
-        justify-content: center;
-    }
-    .p2 {
-        text-align:center;
- font-family:Verdana, Geneva, Tahoma, sans-serif;
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border: 2px solid blanchedalmond;
+}
 
 
-  }
 
- .classement {
+.container {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid blanchedalmond;
+    border-radius: 5vh;
+    margin: auto 15vw;
+}
+
+.img2 {
+    width: 55vw;
+    height: 55vw;
+    margin: auto;
+}
+
+#story {
+    display: flex;
+    justify-content: center;
+}
+
+.p2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.classement {
     margin: 5em;
- }
+}
 
-  .headclassement {
+.headclassement {
     max-width: 500px;
     text-align: center;
     border: solid 1px black;
     border-radius: 2rem;
     box-shadow: 0.75rem 0.5rem 0.5rem black;
     margin-left: auto;
-        margin-right: auto;
-    
+    margin-right: auto;
+
 
 }
 
@@ -205,24 +215,26 @@ ol {
     align-items: stretch;
     align-content: space-between;
     text-align: center;
-    
+
 
 }
 
 li {
-   display: list-item;
+    display: list-item;
     border: solid 1px black;
     border-radius: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 2rem;
     box-shadow: 0.75rem 0.5rem 0.5rem black;
-    padding:0.6em;
-  
-    }
+    padding: 0.6em;
+
+}
 
 
-li:hover, li:focus, li:active {
+li:hover,
+li:focus,
+li:active {
     background-color: black;
     transition: 0.5s;
 }
@@ -231,7 +243,6 @@ li:hover, li:focus, li:active {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
 
 
@@ -261,14 +272,14 @@ li:hover, li:focus, li:active {
 .titleBlock {
     margin-top: 0px;
     margin-bottom: 30px;
-    
+
 }
 
 ;
 
 .titleTeam {
     text-align: center;
-    
+
 }
 
 
