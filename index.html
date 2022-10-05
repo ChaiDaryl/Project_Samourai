@@ -8,16 +8,14 @@
     
     <title>FFK</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib.css">
 </head>
 
 <body>
     <!--navbar +logo-->
 
     <header>
-            <div class="titre">
-            <h1 class="h1samy">FFK Fédération Francaise de Kebab</h1>
-            <img src="donerperche.png" id =logo width=100px height=100px/>
-            </div>
+          
         <nav>  
             <ul>
                 <li><a href="L'histoire du kebab">L'histoire du kebab</a></li>
@@ -34,12 +32,15 @@
         </header>
 
     <!--Ecran d'acceuil-->
+    
 
 
     <section id="accueil">
       
-        <div class="box1"> <h1>Bienvenue à la FFK</h1>
-     
+      
+            <div class="titre">
+                <h1 class="h1samy">Bienvenue à la FFK</h1>
+                </div>
   <img class= img1 src="/assets/arnaud_Doner_flying_in_the_sky_hyperrealistic_cheddar_sauce_and_b3154b54-df42-4799-a04f-cf1460cc8df9.png" alt="flying">
       <div id="bienvenue">
         <h2>A la recherche du Kebab de vos rêves</h2>
@@ -53,9 +54,13 @@
         </div>
     </section> 
 
+
       
 <br>
 <br>
+
+
+
 <br>
 
     <!--Histoire-->
@@ -76,12 +81,27 @@
  Le kebab tel qu'on le connait en Europe est lancé !
  Il s'implantera par la suite en France dans les années 80 où il sera rapidement popularisé
  jusqu'à devenir aujourd'hui l'un des sandwiches les plus consommés chaque jour dans 
- l'hexagone! La grande aventure du kebab ne fait que commencer et ne cesse d'évoluer !
+ l'hexagone! La grande aventure du kebab ne fait que commencer!
         </p>
         </div>
         </div>
     </section> 
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="app-container">
+        <div id="score-container">Score: 0</div>
+        <h2 id="app-title">Quiz : Do you speak the Kebab ?</h2>
+        <div id="questions-container"></div>
+      </div>
+    
+      <br>
+      
 
 
     <!--Les differents types de kebab-->
@@ -191,7 +211,8 @@
     <footer>
         <p>@ FFK-2022</p>
     </footer>
-
+    <script src="lib.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
