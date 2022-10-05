@@ -1,48 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=League+Spartan:wght@200&display=swap');
 
-* {
-
-    /* margin: 0;
-    padding: 0;  */
-    text-decoration: none;
-    font-family: "League Spartan", sans-serif;
-}
-
-
-
-
-:root {
-    --primary-color: blue;
-    --secondary-color: black;
-    --tertiary-color: white;
-    --primary-font: ariana sans serif;
-    --secondary-font: verdana;
-}
-
-body {
-    background-color: #ad8131;
-    margin: auto;
-    box-sizing: border-box;
-}
-
     .header {
         display: flex;
         justify-content:space-around;
         width: 100%;
-        height: 100px;
+        height: 70px;
         box-shadow: 0px 5px 10px 0px #aaa;
         background-color: #D3D0CB;
         position:fixed;
         top:0%;
-        width: 100%;
-        height: 50px;
+       
     
       }
-      
-      .header .imageT {
-      
-      }
-      
+
+  
+ 
       /* paramètre du gros titre */
       
       .titre {
@@ -51,11 +23,11 @@ body {
         justify-content: center;
         min-height: 100vh;
       }
-      
+
       .titre span {
         position: relative;
         font-size: 60px;
-        color: #2B4F33;
+        color: #345e3f;
         text-transform: uppercase;
         animation: flip 2s infinite;
         animation-delay: calc(.2s * var(--i))
@@ -179,23 +151,6 @@ body {
         transform: translate(-60%,-30%);
       }
 
-.titre {
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgb(78, 81, 90);
-    margin-top: 6rem;
-
-}
-
-    * {
-
-        /* margin: 0;
-        padding: 0;  */
-        text-decoration: none;
-        font-family: "League Spartan", sans-serif;
-    }
-
-   
 
    
 
@@ -207,93 +162,7 @@ body {
     } 
      
 
-    .icone {
-        width: 50px;
-    }
-
     
-
-
-
-    .titre {
-        display: flex;
-        justify-content: flex-end;
-        background-color: rgb(78, 81, 90);
-        margin-top: 2rem;
-        margin-bottom: 0,5rem;
-        
-    }
-    
-    .titre .img1 {
-        align-items: flex-end;
-        margin-left: 70px;
-        margin-right: 50px;
-    }
-    
-    .h1samy {
-        text-shadow:#FFFEC8 0 -1px 0,
-
-
-.titre img1 {
-    align-items: flex-end;
-    margin-left: 70px;
-    margin-right: 50px;
-}
-
-.h1samy {
-    text-shadow: #FFFEC8 0 -1px 0,
-        #ff3a00 1px 1px 0,
-        #c01c01 2px 2px 0,
-        #bf1b01 3px 3px 0,
-        #e90b20 4px 4px 0,
-        #850103 5px 5px 0,
-        #333 5px 5px 10px;
-    color: #FFD100;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-nav {
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 50px;
-
-}
-
-
-ul {
-    height: 95px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-    margin: 0em;
-    padding: 0, 5em
-}
-
-
-ul li {
-    list-style: none;
-    margin: 0%;
-
-}
-
-ul li a {
-    text-decoration: none;
-    text-shadow: #FFFEC8 0 -1px 0,
-        #ff3a00 1px 1px 0,
-        #c01c01 2px 2px 0,
-        #bf1b01 3px 3px 0,
-        #e90b20 4px 4px 0,
-        #850103 5px 5px 0,
-        #333 5px 5px 10px;
-    color: #FFD100;
-    font-size: 12px;
-}
 
 
 
@@ -303,13 +172,14 @@ ul li a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin: auto;
-    padding: 15%
+    margin: 5rem;
+    padding: 15%;
+    top:20rem;
 }
 
 .box1 {
     display: block;
-    border: 4px solid blanchedalmond;
+    
     margin: auto 15vw;
     border-radius: 5vh;
 }
@@ -318,7 +188,7 @@ h1 {
     text-align: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 2px solid blanchedalmond;
+  
 
 }
 
@@ -333,7 +203,7 @@ h1 {
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 2px solid blanchedalmond;
+
 }
 
 p {
@@ -479,6 +349,7 @@ li:active {
 
 
 
+
 .titleBlock {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -509,17 +380,23 @@ li:active {
 
 }
 
+#Nosreseaux{margin-top: 15rem ;
 
+}
 
 
 #app-container {
 
-    position: absolute;
-    top: 0;
+  display: inline-block;
+    position: relative;
+    top: 10rem;
+    bottom: 10rem;
+
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100vm;
     padding: 40px 20px;
+    
      
   }
   
@@ -535,6 +412,8 @@ li:active {
   }
   
   #score-container {
+    visibility: hidden
+    ;
     position: fixed;
     right: 40px;
     top: 40px;
