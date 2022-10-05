@@ -4,7 +4,6 @@ function menuOnClick() {
     document.getElementById("menu-bg").classList.toggle("change-bg");
   }
 
-
 let questionsData = [
     {
       text: "Quel empire a vu naître le kebab ?",
