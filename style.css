@@ -82,16 +82,18 @@
       .nav li {
         list-style: none;
         padding: 12px 0;
+        background-color: #ffffff;
       }
       
       .nav li a {
         color: black;
         text-shadow:   -1px -1px 0 #fff,  
-        1px -1px 0 #fff,
+        1px -1px 0 rgb(183, 191, 129),
         -1px 1px 0 #fff,
          1px 1px 0 #fff,
          1px 1px 10px #141414;color:#333;
          font-size: 25px;
+         background-color: #ffffff;
       }
       
       .nav li a:hover {
@@ -155,31 +157,41 @@
    
 
     body{
-        background-color: #ad8131;
+        background-color: #d8cfbf;
         margin:auto;
-        box-sizing: border-box;
+        
         
     } 
      
 
     
-
+    .imgAccueil {
+      /* Ici J'ai paramétré l'image d'accueil en arrière plan ainsi que la phrase d'intro au site */
+      background: url("/assets/imgfondacceuil.jpg");
+      background-size: cover;
+      height: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 145%;
+  }
 
 
 #accueil {
-    display: flex;
+    display: inline;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 5rem;
+    margin: 0rem;
     padding: 15%;
     top:20rem;
+  
 }
 
 .box1 {
     display: block;
-    
     margin: auto 15vw;
     border-radius: 5vh;
 }
@@ -188,7 +200,10 @@ h1 {
     text-align: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+    border : 0px solid rgb(142, 76, 76);
+    border-radius: 20px;
+    font-size: 60px;
+    color:#d7e6db;
 
 }
 
@@ -203,12 +218,14 @@ h1 {
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 
 }
 
 p {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif,;
+    font-size: 30px;
 }
 
 #histoire {
@@ -225,8 +242,8 @@ h3 {
     text-align: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    border: 2px solid blanchedalmond;
+    font-size: 35px;
+    border: px solid blanchedalmond;
 }
 
 
@@ -235,7 +252,7 @@ h3 {
     display: block;
     flex-direction: column;
     text-align: center;
-    border: 4px solid blanchedalmond;
+    border: 0px solid blanchedalmond;
     border-radius: 5vh;
     margin: auto 15vw;
 }
@@ -244,6 +261,7 @@ h3 {
     width: 55vw;
     height: 55vw;
     margin: auto;
+    border-radius: 80px;
 }
 
 #story {
@@ -254,20 +272,21 @@ h3 {
 .p2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 
 
 }
 
 .classement {
-    margin: 5em;
+    margin: 4em;
 }
 
 .headclassement {
     max-width: 500px;
     text-align: center;
-    border: solid 1px black;
+    border: solid 0px black;
     border-radius: 2rem;
-    box-shadow: 0.75rem 0.5rem 0.5rem black;
+    box-shadow: 0.75rem 0.5rem 0.5rem rgb(200, 96, 96);
 
     margin-left: auto;
     margin-right: auto;
@@ -291,12 +310,12 @@ ol {
 
 li {
     display: list-item;
-    border: solid 1px black;
+    border: solid 0px black;
     border-radius: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 2rem;
-    box-shadow: 0.75rem 0.5rem 0.5rem black;
+    box-shadow: 0.75rem 0.5rem 0.5rem rgb(155, 57, 57);
     padding: 0.6em;
 
 }
@@ -408,7 +427,7 @@ li:active {
     align-items: center;
     gap: 15px;
     flex-wrap:wrap;
-    background-color: rgb(235, 235, 244);
+   
   }
   
   #score-container {
@@ -538,4 +557,9 @@ li:active {
   }
 
 
+.logoRS {
+  display: flex;
+  justify-content: space-around;
 
+  ;
+}
